@@ -5,8 +5,8 @@ Most templates here provide both .NET Core and .NET Framework editions. The .NET
 
 ### Project templates
 ---
-### `AzureFunctions`
-#### *`.NET Core`*
+#### `AzureFunctions`
+##### *`.NET Core`*
 To install:
 
 1. Clone this repository to a folder on your local system (e.g. `D:\Templates`)
