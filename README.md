@@ -13,7 +13,7 @@ To install:
 2. Open a command prompt and navigate to that location
 3. Issue the `dotnet new` command to install the template:
 
-  `dotnet new -i D:\Templates\Projects\AzureFunctions\HttpTrigger\Project`
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`dotnet new -i D:\Templates\Projects\AzureFunctions\HttpTrigger\Project`
 
 To use:
 
@@ -21,7 +21,7 @@ To use:
 2. Create and navigate to a subfolder for this project (e.g. `D:\Projects\AzureHttpTrigger`)
 3. Issue the `dotnet new` command to create a new project:
 
-  `dotnet new azure-http-trigger`
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`dotnet new azure-http-trigger`
 
 
 
