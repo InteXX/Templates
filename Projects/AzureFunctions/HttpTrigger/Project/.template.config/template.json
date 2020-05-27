@@ -1,6 +1,6 @@
 {
   "author": "InteXX",
-  "classifications": [ "Web/Azure" ],
+  "classifications": [ "Azure", "Web" ],
   "name": "Azure Function Project (HTTP Trigger)",
   "identity": "Intexx.Templates.AzureFunctions.HttpTrigger",
   "shortName": "azure-http-trigger",
