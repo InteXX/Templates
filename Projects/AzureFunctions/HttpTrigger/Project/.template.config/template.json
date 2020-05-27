@@ -3,10 +3,10 @@
   "classifications": [ "Web/Azure" ],
   "name": "Azure Function Project (HTTP Trigger)",
   "identity": "Intexx.Templates.AzureFunctions.HttpTrigger",
-  "shortName": "azure-http-trigger", // You can create the project using this short name instead of the one above.
+  "shortName": "azure-http-trigger",
   "tags": {
-    "language": "[VB]" // Specify that this template is in VB.
+    "language": "[VB]"
   },
-  "sourceName": "HttpTrigger", // Will replace the string 'HttpTrigger' with the value provided via -n.
+  "sourceName": "AzureHttpTrigger",
   "preferNameDirectory": "true"
 }
