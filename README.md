@@ -9,21 +9,20 @@ Most project templates here provide both .NET Core and .NET Framework editions. 
 #### *`.NET Core`*
 To install:
 
-1. Clone this repository to a location on your local system (e.g. `D:\Templates`)
-2. Open a command prompt and navigate to that location
+1. Clone this repository to a folder on your local system (e.g. `D:\Templates`)
+2. At a command prompt, `cd` to the template folder (e.g. `D:\Templates\Projects\AzureFunctions\HttpTrigger\Project`)
 3. Issue the `dotnet new` command to install the template:
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`dotnet new -i D:\Templates\Projects\AzureFunctions\HttpTrigger\Project`
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`dotnet new -i .\`
 
 To use:
 
 1. Open a command prompt
-2. Create and navigate to a subfolder for this project (e.g. `D:\Projects\AzureHttpTrigger`)
-3. Issue the `dotnet new` command to create a new project:
+2. Create and `cd` to a subfolder for the new project (e.g. `D:\Projects\AzureHttpTrigger`)
+3. Issue the `dotnet new` command to create the project:
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`dotnet new azure-http-trigger`
 
-
-
-## Item templates
-No items yet. Keep checking back.
+### Item templates
+---
+No templates yet. Keep checking back.
