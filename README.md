@@ -1,7 +1,7 @@
 ## Project & item templates
 This is a collection of custom templates for VB.NET projects and items, mostly intended to fill in the gaps where the official templates don't provide this important support.
 
-Most project templates here provide both .NET Core and .NET Framework editions. The .NET Core editions are installed using `dotnet new`, and the .NET Framework editions are installed using a .VSIX file that you'll generate by building the deployment project for the template. (The deployment project for each is generally named `Installer`.)
+Most templates here provide both .NET Core and .NET Framework editions. The .NET Core editions are installed using `dotnet new`, and the .NET Framework editions are installed using a .VSIX file that you'll generate by building the deployment project for the template. (The deployment project for each is generally named `Installer`.)
 
 ### Project templates
 ---
