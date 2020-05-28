@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <PackageType>Template</PackageType>
-    <PackageVersion>1.0.0</PackageVersion>
+    <PackageVersion>1.0.1</PackageVersion>
     <PackageId>Intexx.Templates.AzureFunctions</PackageId>
     <Title>Azure Functions for VB.NET</Title>
     <Authors>InteXX</Authors>
@@ -19,7 +19,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Content Include="HttpTrigger\Project\**\*" Exclude="HttpTrigger\Project\**\bin\**;HttpTrigger\Project\**\obj\**;HttpTrigger\Project\**\.vs\**" />
+    <Content Include="Http\Project\**\*" Exclude="Http\Project\**\bin\**;Http\Project\**\obj\**;Http\Project\**\.vs\**" />
     <Compile Remove="**\*" />
   </ItemGroup>
 </Project>
