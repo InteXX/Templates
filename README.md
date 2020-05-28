@@ -10,7 +10,10 @@ Most templates here provide both .NET Core and .NET Framework editions. The .NET
 To install:
 
 1. Clone this repository to a folder on your local system (e.g. `D:\Templates`)
-2. At a command prompt, `cd` to the template folder (e.g. `D:\Templates\Projects\AzureFunctions\<TriggerType>\Project`)
+2. At a command prompt, `cd` to the project folder (e.g. `D:\Templates\Projects\AzureFunctions\<TriggerType>\Project`)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;...where `<TriggerType>` is the template you want (e.g. `D:\Templates\Projects\AzureFunctions\Http\Project`)
+
 3. Issue the `dotnet new` command to install the template:
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`dotnet new -i .\`
@@ -27,7 +30,7 @@ To use:
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`dotnet new azure-function-<TriggerType>`
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;...where `<TriggerType>` is the template you want, e.g. `azure-function-http`
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;...where `<TriggerType>` is the template you want (e.g. `http`)
 
 
 ### Item templates
