@@ -12,7 +12,7 @@ To install:
 1. Clone this repository to a folder on your local system (e.g. `D:\Templates`)
 2. At a command prompt, `cd` to the project folder (e.g. `D:\Templates\Projects\AzureFunctions\<TriggerType>\Project`)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;...where `<TriggerType>` is the template you want (e.g. `D:\Templates\Projects\AzureFunctions\Http\Project`)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;...where `<TriggerType>` is the template you want (e.g. `Http`)
 
 3. Issue the `dotnet new` command to install the template:
 
