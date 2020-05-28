@@ -10,18 +10,25 @@ Most templates here provide both .NET Core and .NET Framework editions. The .NET
 To install:
 
 1. Clone this repository to a folder on your local system (e.g. `D:\Templates`)
-2. At a command prompt, `cd` to the template folder (e.g. `D:\Templates\Projects\AzureFunctions\HttpTrigger\Project`)
+2. At a command prompt, `cd` to the template folder (e.g. `D:\Templates\Projects\AzureFunctions\<TriggerType>\Project`)
 3. Issue the `dotnet new` command to install the template:
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`dotnet new -i .\`
 
+4. Alternatively, to install from [NuGet](https://www.nuget.org/packages/Intexx.Templates.AzureFunctions) without cloning, issue this command instead:
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`dotnet new -i Intexx.Templates.AzureFunctions`
+
 To use:
 
 1. Open a command prompt
-2. Create and `cd` to a subfolder for the new project (e.g. `D:\Projects\AzureHttpTrigger`)
+2. Create and `cd` to a subfolder for the new project (e.g. `D:\Projects\AzureFunctionHttp`)
 3. Issue the `dotnet new` command to create the project:
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`dotnet new azure-http-trigger`
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`dotnet new azure-function-<TriggerType>`
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;...where `<TriggerType>` is the template you want, e.g. `azure-function-http`
+
 
 ### Item templates
 ---
