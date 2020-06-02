@@ -2,7 +2,7 @@
   "author": "InteXX",
   "classifications": [ "Web", "Azure" ],
   "name": "Azure Function Project (HTTP Trigger)",
-  "identity": "Intexx.Templates.AzureFunctions.HttpTrigger",
+  "identity": "Intexx.Templates.Projects.AzureFunctions.HttpTrigger",
   "shortName": "azure-function-http",
   "tags": {
     "language": "VB",
