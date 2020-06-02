@@ -1,13 +1,13 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <PackageType>Template</PackageType>
-    <PackageVersion>1.0.1</PackageVersion>
-    <PackageId>Intexx.Templates.AzureFunctions</PackageId>
-    <Title>Azure Functions for VB.NET</Title>
+    <PackageVersion>1.0.0</PackageVersion>
+    <PackageId>Intexx.Templates</PackageId>
+    <Title>Project &amp; item templates for VB.NET</Title>
     <Authors>InteXX</Authors>
     <Copyright>2020</Copyright>
-    <Description>Templates to use when creating an Azure Function in VB.NET</Description>
-    <PackageTags>dotnet-new;templates;azure</PackageTags>
+    <Description>Templates to use when creating projects &amp; items in VB.NET</Description>
+    <PackageTags>dotnet-new;templates</PackageTags>
 
     <TargetFramework>netstandard2.0</TargetFramework>
 
@@ -19,7 +19,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Content Include="Http\Project\**\*" Exclude="Http\Project\**\bin\**;Http\Project\**\obj\**;Http\Project\**\.vs\**" />
+    <Content Include="**\*" Exclude="*;**\AzureFunction.svg;**\Template.ico;**\Installer\**;**\Template\**;**\bin\**;**\obj\**;.git\**;.vs\**" />
     <Compile Remove="**\*" />
   </ItemGroup>
 </Project>
