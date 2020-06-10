@@ -18,7 +18,7 @@ To install:
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`dotnet new -i .\`
 
-4. Alternatively, to install from [NuGet](https://www.nuget.org/packages/Intexx.Templates.AzureFunctions) without cloning, issue this command instead:
+4. Alternatively, to install from [NuGet](https://www.nuget.org/packages/Intexx.Templates) without cloning, issue this command instead:
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`dotnet new -i Intexx.Templates`
 
